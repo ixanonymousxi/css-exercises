@@ -1,6 +1,16 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  /* Solution */
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* My original overly complicated solution */
+  /*
+  display: flex;
+  padding: 0 10px;
+  */
 }
 
 .logo {
@@ -9,11 +19,45 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  /* My original overly complicated solution */
+  /*
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  */
 }
+
+/* My original overly complicated solution */
+/*
+.left-links{
+  flex: 5 1 auto;
+  display: flex;
+  align-items: center;
+}
+
+.right-links{
+  flex: 5 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+*/
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+  /* My original overly complicated solution */
+  /*
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  */
 }
 
 a {
